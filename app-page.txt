@@ -1,0 +1,10 @@
+import LocalTime from "./components/LocalTime";
+
+export default function Page() {
+  return (
+    <main>
+      <h1>Hydration without the red error</h1>
+      <LocalTime />
+    </main>
+  );
+}
